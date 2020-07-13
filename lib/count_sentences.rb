@@ -31,4 +31,5 @@ class String
     sentences.delete_if{|sentence| sentence.empty?}
     sentences.length
   end
+  sentences
 end
